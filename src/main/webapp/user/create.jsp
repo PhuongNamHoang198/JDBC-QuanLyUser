@@ -5,6 +5,12 @@
 <head>
     <title>User Management Application</title>
 </head>
+<style>
+p{
+    text-align: center;
+    color: red;
+}
+</style>
 <body>
 <center>
     <h1>User Management</h1>
@@ -18,10 +24,17 @@
             <caption>
                 <h2>Add New User</h2>
             </caption>
+
+<%--            <tr>--%>
+<%--                <th>User Name:</th>--%>
+<%--                <td>--%>
+<%--                    <input type="text" name="name" id="name" size="45"/>--%>
+<%--                </td>--%>
+<%--            </tr>--%>
             <tr>
-                <th>User Name:</th>
+                <th> User Name</th>
                 <td>
-                    <input type="text" name="name" id="name" size="45"/>
+                    <input type="text" name="name" id ="name" size="45">
                 </td>
             </tr>
             <tr>
